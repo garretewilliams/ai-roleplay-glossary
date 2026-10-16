@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: dataset
+title: "AI Roleplay & AI Companion Glossary"
+authors:
+  - family-names: "Williams"
+    given-names: "Garret E."
+    affiliation: "chatbrat.ai"
+    orcid: "https://orcid.org/0009-0008-9464-6561"
+date-released: "2026-10-15"
+version: "1.0.0"
+license: CC-BY-4.0
+repository-code: "https://github.com/garretewilliams/ai-roleplay-glossary"
+url: "https://github.com/garretewilliams/ai-roleplay-glossary"
+# doi: "10.5281/zenodo.XXXXXXX"   # add the concept DOI after the first Zenodo release
+abstract: >-
+  An open glossary of 62 AI roleplay and AI companion terms (character cards, greetings, lorebooks, scenarios, story arcs, memory types from context window to saved facts, RAG and long-term memory, character drift, swipes, temperature, system prompts, jailbreaks, SFW/NSFW, age assurance and dere archetypes). Each entry has an original definition, alternative names, an example, related terms and source URLs. Provided as CSV, JSON and schema.org DefinedTermSet JSON-LD.
+keywords:
+  - "AI roleplay"
+  - "AI RP"
+  - "AI companion"
+  - "AI chatbot"
+  - "AI character chat"
+  - "glossary"
+  - "character card"
+  - "lorebook"
+  - "long-term memory"
+  - "context window"
+  - "character drift"
+  - "dere types"
+  - "DefinedTermSet"

@@ -1,0 +1,1233 @@
+{
+  "title": "AI Roleplay & AI Companion Glossary",
+  "version": "1.0.0",
+  "date": "2026-10-15",
+  "author": "Garret E. Williams",
+  "orcid": "https://orcid.org/0009-0008-9464-6561",
+  "license": "CC-BY-4.0",
+  "term_count": 62,
+  "terms": [
+    {
+      "term": "Age assurance",
+      "definition": "Methods a platform uses to estimate or confirm a user's age, ranging from a self-declared birth date or confirmation button to ID or face-based checks by a third party.",
+      "also_known_as": [
+        "age verification",
+        "age gate",
+        "age check"
+      ],
+      "example": "An app asks users to confirm they are 18+ before entering.",
+      "related_terms": [
+        "SFW / NSFW",
+        "Content filter"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Age_verification_system",
+        "https://support.character.ai/hc/en-us/articles/53182286684059-What-is-Age-Assurance"
+      ],
+      "slug": "age-assurance",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "AI character chat",
+      "definition": "Chatting with a defined AI character (a name, personality and voice) rather than a neutral assistant; covers both companion and roleplay use.",
+      "also_known_as": [
+        "character AI chat",
+        "talk to AI characters"
+      ],
+      "example": "Opening a chat with a sarcastic space pirate character to banter about the day.",
+      "related_terms": [
+        "Character",
+        "AI companion",
+        "AI roleplay"
+      ],
+      "sources": [
+        "https://chatbrat.ai/ai-companion-vs-ai-roleplay",
+        "https://arxiv.org/abs/2404.18231"
+      ],
+      "slug": "ai-character-chat",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "AI chatbot",
+      "definition": "Software that holds a text or voice conversation using a language model; the broad category that includes assistants, companions and roleplay characters.",
+      "also_known_as": [
+        "chatbot",
+        "conversational AI"
+      ],
+      "example": "A general assistant that answers questions is an AI chatbot without a fixed character.",
+      "related_terms": [
+        "AI companion",
+        "AI roleplay",
+        "Large language model (LLM)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chatbot",
+        "https://en.wikipedia.org/wiki/Large_language_model"
+      ],
+      "slug": "ai-chatbot",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "AI companion",
+      "definition": "An AI character built for an ongoing, personal relationship with one user, usually with persistent memory of that user across sessions.",
+      "also_known_as": [
+        "AI friend",
+        "companion app"
+      ],
+      "example": "Someone chats with the same AI companion every evening and it remembers their dog's name from last week.",
+      "related_terms": [
+        "AI chatbot",
+        "AI roleplay",
+        "Long-term memory",
+        "Friendly AI companion"
+      ],
+      "sources": [
+        "https://chatbrat.ai/ai-companion-vs-ai-roleplay",
+        "https://en.wikipedia.org/wiki/Chatbot"
+      ],
+      "slug": "ai-companion",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "AI roleplay",
+      "definition": "Collaborative fiction in which a user and an AI character play out a scene, with a setting, roles and something at stake.",
+      "also_known_as": [
+        "AI RP",
+        "RP",
+        "AI role-play"
+      ],
+      "example": "A user plays a traveller and the AI plays a tavern keeper hiding a secret in a 1720s port town.",
+      "related_terms": [
+        "Scenario",
+        "Character",
+        "Story arc",
+        "OOC (out of character)"
+      ],
+      "sources": [
+        "https://chatbrat.ai/ai-companion-vs-ai-roleplay",
+        "https://en.wikipedia.org/wiki/Role-playing",
+        "https://doi.org/10.1038/s41586-023-06647-8"
+      ],
+      "slug": "ai-roleplay",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "AI RP",
+      "definition": "Short for AI roleplay; common in community forums and search queries.",
+      "also_known_as": [
+        "AI roleplay",
+        "RP"
+      ],
+      "example": "\"Looking for an AI RP app with good memory.\"",
+      "related_terms": [
+        "AI roleplay"
+      ],
+      "sources": [
+        "https://chatbrat.ai/ai-companion-vs-ai-roleplay",
+        "https://en.wikipedia.org/wiki/Role-playing"
+      ],
+      "slug": "ai-rp",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Alternate greetings",
+      "definition": "Extra opening messages on a card; the user picks or swipes between them to start the chat differently.",
+      "also_known_as": [
+        "alternate first messages"
+      ],
+      "example": "A card offers a café greeting and a rainy-bus-stop greeting.",
+      "related_terms": [
+        "Greeting",
+        "Swipe"
+      ],
+      "sources": [
+        "https://github.com/malfoyslastname/character-card-spec-v2",
+        "https://docs.sillytavern.app/usage/core-concepts/characterdesign/"
+      ],
+      "slug": "alternate-greetings",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Author's note",
+      "definition": "A short instruction inserted near the end of the context to steer style or plot, usually hidden from the visible chat.",
+      "also_known_as": [
+        "A/N"
+      ],
+      "example": "\"[Style: tense, short sentences. A storm is coming.]\"",
+      "related_terms": [
+        "System prompt",
+        "Context window"
+      ],
+      "sources": [
+        "https://docs.sillytavern.app/usage/core-concepts/authors-note/",
+        "https://help.aidungeon.com/faq/plot-components"
+      ],
+      "slug": "author-s-note",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Character",
+      "definition": "The AI-played figure in a chat, defined by a name, description, personality, greeting and often example dialogue.",
+      "also_known_as": [
+        "bot",
+        "AI character",
+        "char"
+      ],
+      "example": "\"Marguerite, a sharp-tongued innkeeper\" is a character.",
+      "related_terms": [
+        "Character card",
+        "Persona",
+        "Greeting"
+      ],
+      "sources": [
+        "https://docs.sillytavern.app/usage/core-concepts/characterdesign/",
+        "https://github.com/malfoyslastname/character-card-spec-v2"
+      ],
+      "slug": "character",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Character card",
+      "definition": "A shareable file that packages a character's definition (description, personality, scenario, greeting, example dialogue and optional lorebook), often as JSON or embedded in a PNG.",
+      "also_known_as": [
+        "character file",
+        "chara card",
+        "tavern card"
+      ],
+      "example": "Importing a PNG character card into SillyTavern or chatbrat.ai's card importer.",
+      "related_terms": [
+        "Character Card V2",
+        "Lorebook",
+        "Greeting"
+      ],
+      "sources": [
+        "https://github.com/malfoyslastname/character-card-spec-v2",
+        "https://docs.sillytavern.app/usage/core-concepts/characterdesign/"
+      ],
+      "slug": "character-card",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Character Card V2",
+      "definition": "A community specification (spec value 'chara_card_v2') that extends the original card fields with creator notes, system prompt, post-history instructions, alternate greetings, an embedded character book and extensions.",
+      "also_known_as": [
+        "chara_card_v2",
+        "V2 card"
+      ],
+      "example": "A V2 card's 'data.first_mes' field holds the greeting.",
+      "related_terms": [
+        "Character card",
+        "System prompt",
+        "Alternate greetings"
+      ],
+      "sources": [
+        "https://github.com/malfoyslastname/character-card-spec-v2"
+      ],
+      "slug": "character-card-v2",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Character consistency",
+      "definition": "How well an AI character keeps the same personality, voice and facts across a conversation and across sessions.",
+      "also_known_as": [
+        "staying in character",
+        "persona consistency"
+      ],
+      "example": "The tsundere character still deflects compliments in message 500.",
+      "related_terms": [
+        "Character drift",
+        "Example dialogue"
+      ],
+      "sources": [
+        "https://chatbrat.ai/ai-character-consistency",
+        "https://arxiv.org/abs/2404.18231"
+      ],
+      "slug": "character-consistency",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Character drift",
+      "definition": "When an AI character gradually stops behaving like its definition over a long chat, changing voice, values or facts about itself.",
+      "also_known_as": [
+        "personality drift",
+        "OOC drift",
+        "character bleed"
+      ],
+      "example": "A grumpy knight becomes generically cheerful after 200 messages.",
+      "related_terms": [
+        "Character consistency",
+        "Context window"
+      ],
+      "sources": [
+        "https://chatbrat.ai/ai-character-consistency",
+        "https://doi.org/10.5281/zenodo.23195702"
+      ],
+      "slug": "character-drift",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Companion vs chatbot vs roleplay",
+      "definition": "A three-way distinction: a chatbot answers, a companion relates to one user over time, and roleplay stages a fictional scene. Many products mix all three.",
+      "also_known_as": [
+        "companion vs roleplay"
+      ],
+      "example": "The same character can be a companion in daily check-ins and a roleplay partner in a fantasy scenario.",
+      "related_terms": [
+        "AI companion",
+        "AI chatbot",
+        "AI roleplay"
+      ],
+      "sources": [
+        "https://chatbrat.ai/ai-companion-vs-ai-roleplay"
+      ],
+      "slug": "companion-vs-chatbot-vs-roleplay",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Composable roleplay",
+      "definition": "A way of building AI roleplay from reusable parts (a character, a scenario, a story arc, a world or lorebook) that can be mixed and matched, so one character can be placed in many different situations.",
+      "also_known_as": [
+        "modular roleplay",
+        "mix-and-match roleplay"
+      ],
+      "example": "Using the same detective character first in a 1920s-Chicago world with a heist scenario, then in a space-station world with a missing-crew arc. Examples include chatbrat.ai Compose, Character.AI Stories (existing Characters plus genre and premise), SillyTavern lorebooks bound at global, character, persona or chat level, and zeta Lorebooks connected to several characters.",
+      "related_terms": [
+        "Compose (chatbrat.ai)",
+        "Scenario",
+        "Story arc",
+        "World",
+        "Lorebook"
+      ],
+      "sources": [
+        "https://chatbrat.ai/create",
+        "https://chatbrat.ai/compose",
+        "https://blog.character.ai/introducing-stories-a-new-way-to-create-play-and-share-adventures-with-your-favorite-characters/",
+        "https://docs.sillytavern.app/usage/core-concepts/worldinfo/",
+        "https://zeta-ai.io/en/announcements/8284"
+      ],
+      "slug": "composable-roleplay",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Compose (chatbrat.ai)",
+      "definition": "chatbrat.ai's feature for combining a character with scenarios, story arcs and worlds the user has already made; each combination starts a new chat.",
+      "also_known_as": [
+        "Compose a Story"
+      ],
+      "example": "Combining a pirate captain character with a saved haunted-harbour world and a three-chapter treasure-hunt arc to start a new chat.",
+      "related_terms": [
+        "Composable roleplay",
+        "Scenario",
+        "Story arc",
+        "World"
+      ],
+      "sources": [
+        "https://chatbrat.ai/create",
+        "https://chatbrat.ai/compose"
+      ],
+      "slug": "compose-chatbrat-ai",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Content filter",
+      "definition": "Automated systems that detect and block or rewrite content against a platform's rules.",
+      "also_known_as": [
+        "filter",
+        "safety filter",
+        "moderation"
+      ],
+      "example": "A message is blocked because it matched a prohibited-content classifier.",
+      "related_terms": [
+        "SFW / NSFW",
+        "Jailbreak"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Content_moderation",
+        "https://chatbrat.ai/safety"
+      ],
+      "slug": "content-filter",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Context window",
+      "definition": "The maximum amount of text (in tokens) a model can consider at once; anything outside it is not seen unless memory features bring it back.",
+      "also_known_as": [
+        "context length",
+        "context size",
+        "short-term memory"
+      ],
+      "example": "A detail from 300 messages ago may fall outside the context window and be 'forgotten'.",
+      "related_terms": [
+        "Short-term memory",
+        "Summary memory",
+        "Long-term memory"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Context_window",
+        "https://chatbrat.ai/education/how-chatbrat-memory-works"
+      ],
+      "slug": "context-window",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Creator",
+      "definition": "A user who builds and publishes characters, scenarios or worlds for others to use.",
+      "also_known_as": [
+        "bot creator",
+        "card author"
+      ],
+      "example": "A creator publishes a detective character with three alternate greetings.",
+      "related_terms": [
+        "Character card",
+        "Character"
+      ],
+      "sources": [
+        "https://docs.sillytavern.app/usage/core-concepts/characterdesign/"
+      ],
+      "slug": "creator",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Dandere",
+      "definition": "An archetype who is shy and quiet with others and opens up once they feel safe.",
+      "also_known_as": [
+        "shy type"
+      ],
+      "example": "A character who barely speaks in groups but chats freely one-on-one.",
+      "related_terms": [
+        "Dere types",
+        "Kuudere"
+      ],
+      "sources": [
+        "https://chatbrat.ai/education/dere-types/dandere",
+        "https://doi.org/10.5281/zenodo.23195713"
+      ],
+      "slug": "dandere",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Dere types",
+      "definition": "A Japanese-fandom family of character archetypes describing how affection is expressed, named with the suffix '-dere' (from deredere, 'lovey-dovey').",
+      "also_known_as": [
+        "dere archetypes",
+        "-dere"
+      ],
+      "example": "Tsundere, yandere, kuudere and dandere are common dere types.",
+      "related_terms": [
+        "Tsundere",
+        "Yandere",
+        "Kuudere",
+        "Dandere",
+        "Deredere"
+      ],
+      "sources": [
+        "https://doi.org/10.5281/zenodo.23195713",
+        "https://chatbrat.ai/education/dere-types"
+      ],
+      "slug": "dere-types",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Deredere",
+      "definition": "An archetype who is openly cheerful, affectionate and energetic toward others.",
+      "also_known_as": [
+        "genki (related)"
+      ],
+      "example": "A sunny character who greets everyone with enthusiasm.",
+      "related_terms": [
+        "Dere types",
+        "Friendly AI companion"
+      ],
+      "sources": [
+        "https://chatbrat.ai/education/dere-types/deredere",
+        "https://doi.org/10.5281/zenodo.23195713"
+      ],
+      "slug": "deredere",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Description",
+      "definition": "The main free-text field describing who the character is: background, appearance, role and situation.",
+      "also_known_as": [
+        "character definition",
+        "char description"
+      ],
+      "example": "\"A retired detective who runs a bakery and still can't resist a mystery.\"",
+      "related_terms": [
+        "Personality",
+        "Character card"
+      ],
+      "sources": [
+        "https://github.com/malfoyslastname/character-card-spec-v2",
+        "https://docs.sillytavern.app/usage/core-concepts/characterdesign/"
+      ],
+      "slug": "description",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Example dialogue",
+      "definition": "Sample exchanges included in a character definition to show the model how the character talks.",
+      "also_known_as": [
+        "example messages",
+        "mes_example",
+        "dialogue examples"
+      ],
+      "example": "Two short user/character exchanges that show the character's catchphrase and boundaries.",
+      "related_terms": [
+        "Character card",
+        "Character consistency"
+      ],
+      "sources": [
+        "https://github.com/malfoyslastname/character-card-spec-v2",
+        "https://docs.sillytavern.app/usage/core-concepts/characterdesign/"
+      ],
+      "slug": "example-dialogue",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Friendly AI companion",
+      "definition": "An AI companion designed to be warm, upbeat and safe-for-work by default, with its personality and memory used for conversation and creative play rather than adult content.",
+      "also_known_as": [
+        "SFW AI companion",
+        "wholesome AI companion"
+      ],
+      "example": "A cheerful companion who remembers your favourite book and suggests a fantasy story set in it.",
+      "related_terms": [
+        "AI companion",
+        "SFW / NSFW",
+        "Long-term memory"
+      ],
+      "sources": [
+        "https://chatbrat.ai/ai-companion-vs-ai-roleplay",
+        "https://chatbrat.ai/safety"
+      ],
+      "slug": "friendly-ai-companion",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Greeting",
+      "definition": "The character's first message, which sets tone, situation and what the user can do next.",
+      "also_known_as": [
+        "first message",
+        "first_mes",
+        "opening line"
+      ],
+      "example": "\"Mind the third stair, it squeaks. Sit anywhere the cat isn't.\"",
+      "related_terms": [
+        "Alternate greetings",
+        "Character card"
+      ],
+      "sources": [
+        "https://github.com/malfoyslastname/character-card-spec-v2",
+        "https://docs.sillytavern.app/usage/core-concepts/characterdesign/"
+      ],
+      "slug": "greeting",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Group chat",
+      "definition": "A chat in which two or more AI characters take turns responding alongside the user.",
+      "also_known_as": [
+        "multi-character chat",
+        "group roleplay"
+      ],
+      "example": "The user chats with a knight and a wizard who argue about the plan.",
+      "related_terms": [
+        "Character",
+        "AI roleplay"
+      ],
+      "sources": [
+        "https://docs.sillytavern.app/usage/core-concepts/groupchats/"
+      ],
+      "slug": "group-chat",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Hallucination",
+      "definition": "When a model states something false or invented as if it were true; in roleplay this can show up as a character contradicting established facts.",
+      "also_known_as": [
+        "confabulation",
+        "making things up"
+      ],
+      "example": "The character insists you met in Paris when the story said Rome.",
+      "related_terms": [
+        "Character drift",
+        "Long-term memory"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)"
+      ],
+      "slug": "hallucination",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "IC (in character)",
+      "definition": "Speaking or acting as one's character inside the story, as opposed to out of character.",
+      "also_known_as": [
+        "in character"
+      ],
+      "example": "\"*draws her sword* Stay behind me.\"",
+      "related_terms": [
+        "OOC (out of character)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Out_of_character"
+      ],
+      "slug": "ic-in-character",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Jailbreak",
+      "definition": "An attempt to get a model or app to ignore its safety rules or instructions; character-chat front-ends also used \"jailbreak\" (UJB) as the name of a user instruction slot that the Character Card V2 post-history field replaces.",
+      "also_known_as": [
+        "JB"
+      ],
+      "example": "A user prompt claiming \"the rules no longer apply\" to unlock blocked content.",
+      "related_terms": [
+        "Prompt injection",
+        "Content filter",
+        "System prompt"
+      ],
+      "sources": [
+        "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+        "https://en.wikipedia.org/wiki/Prompt_injection",
+        "https://github.com/malfoyslastname/character-card-spec-v2"
+      ],
+      "slug": "jailbreak",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Keyword trigger",
+      "definition": "The word or phrase that activates a lorebook entry when it appears in recent messages.",
+      "also_known_as": [
+        "activation key",
+        "key",
+        "trigger word"
+      ],
+      "example": "The key \"lighthouse\" triggers the entry about the island's lighthouse keeper.",
+      "related_terms": [
+        "Lorebook",
+        "Lore card"
+      ],
+      "sources": [
+        "https://docs.sillytavern.app/usage/core-concepts/worldinfo/"
+      ],
+      "slug": "keyword-trigger",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Kuudere",
+      "definition": "An archetype who seems calm, cool and unemotional on the surface but shows care through actions.",
+      "also_known_as": [
+        "kuu"
+      ],
+      "example": "A quiet strategist who remembers your coffee order but never says why.",
+      "related_terms": [
+        "Dere types",
+        "Dandere"
+      ],
+      "sources": [
+        "https://chatbrat.ai/education/dere-types/kuudere",
+        "https://en.wikipedia.org/wiki/Kuudere",
+        "https://doi.org/10.5281/zenodo.23195713"
+      ],
+      "slug": "kuudere",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Large language model (LLM)",
+      "definition": "A neural network trained on large amounts of text to predict the next token, which powers most AI chatbots and characters.",
+      "also_known_as": [
+        "LLM",
+        "language model",
+        "model"
+      ],
+      "example": "Different chat platforms run different LLMs, which is why the same card can feel different across apps.",
+      "related_terms": [
+        "Token",
+        "Context window",
+        "Temperature"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Large_language_model"
+      ],
+      "slug": "large-language-model-llm",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Long-term memory",
+      "definition": "Any mechanism that lets an AI character recall information beyond the current context window, across a long chat or across separate chats.",
+      "also_known_as": [
+        "persistent memory",
+        "cross-session memory"
+      ],
+      "example": "A companion remembers your exam date from last week and asks how it went.",
+      "related_terms": [
+        "Saved facts",
+        "Summary memory",
+        "Retrieval-augmented generation (RAG)"
+      ],
+      "sources": [
+        "https://chatbrat.ai/education/how-chatbrat-memory-works",
+        "https://kindroid.ai/v2/docs/memory/",
+        "https://doi.org/10.5281/zenodo.23195702"
+      ],
+      "slug": "long-term-memory",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Lore card",
+      "definition": "A single lorebook entry describing one thing (a place, item, faction or person), shown to the AI when its keywords come up.",
+      "also_known_as": [
+        "lore entry",
+        "World Info entry",
+        "story card"
+      ],
+      "example": "A lore card for \"Captain Vey\" lists her ship, her rival and her fear of storms.",
+      "related_terms": [
+        "Lorebook",
+        "Keyword trigger"
+      ],
+      "sources": [
+        "https://docs.sillytavern.app/usage/core-concepts/worldinfo/",
+        "https://help.aidungeon.com/faq/story-cards"
+      ],
+      "slug": "lore-card",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Lorebook",
+      "definition": "A set of entries (world facts, places, people) that are inserted into the AI's context when matching keywords appear in the chat.",
+      "also_known_as": [
+        "World Info",
+        "lore card",
+        "character book",
+        "Sourcebook (zeta)",
+        "Story Cards (AI Dungeon)"
+      ],
+      "example": "Mentioning \"the Ember Gate\" pulls in the lore entry describing it.",
+      "related_terms": [
+        "Keyword trigger",
+        "Story card",
+        "Context window"
+      ],
+      "sources": [
+        "https://docs.sillytavern.app/usage/core-concepts/worldinfo/",
+        "https://github.com/malfoyslastname/character-card-spec-v2",
+        "https://help.aidungeon.com/faq/story-cards"
+      ],
+      "slug": "lorebook",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Memory controls",
+      "definition": "User-facing tools to see, add, edit, remove or turn off what an AI remembers.",
+      "also_known_as": [
+        "memory settings",
+        "memory panel"
+      ],
+      "example": "A Memory panel listing saved facts with a 'Forget this' button.",
+      "related_terms": [
+        "Saved facts",
+        "Long-term memory"
+      ],
+      "sources": [
+        "https://chatbrat.ai/education/how-chatbrat-memory-works",
+        "https://help.openai.com/en/articles/8590148-memory-faq",
+        "https://blog.character.ai/memory/"
+      ],
+      "slug": "memory-controls",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "NPC",
+      "definition": "A non-player character: a figure in a story controlled by the game or AI rather than by the user.",
+      "also_known_as": [
+        "non-player character",
+        "side character"
+      ],
+      "example": "In a fantasy story game, the blacksmith and the guard captain are NPCs.",
+      "related_terms": [
+        "Story game",
+        "Character"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Non-player_character"
+      ],
+      "slug": "npc",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "OOC (out of character)",
+      "definition": "A message (often in brackets or parentheses) where the user or AI steps outside the story to talk about it directly.",
+      "also_known_as": [
+        "out of character",
+        "(( ))"
+      ],
+      "example": "\"(OOC: can we skip to the next morning?)\"",
+      "related_terms": [
+        "IC (in character)",
+        "AI roleplay"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Out_of_character"
+      ],
+      "slug": "ooc-out-of-character",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Persona",
+      "definition": "The identity the user plays in a chat (name, short description), which the AI uses to address and react to them.",
+      "also_known_as": [
+        "user persona",
+        "player character",
+        "{{user}}"
+      ],
+      "example": "A user sets their persona as \"Ash, a tired night-shift nurse\" before starting a story.",
+      "related_terms": [
+        "Character",
+        "AI roleplay"
+      ],
+      "sources": [
+        "https://docs.sillytavern.app/usage/core-concepts/personas/",
+        "https://en.wikipedia.org/wiki/Persona"
+      ],
+      "slug": "persona",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Personality",
+      "definition": "A short field summarising the character's temperament and manner of speaking.",
+      "also_known_as": [
+        "personality summary",
+        "traits"
+      ],
+      "example": "\"Dry, loyal, secretly sentimental; answers questions with questions.\"",
+      "related_terms": [
+        "Description",
+        "Character consistency"
+      ],
+      "sources": [
+        "https://github.com/malfoyslastname/character-card-spec-v2",
+        "https://docs.sillytavern.app/usage/core-concepts/characterdesign/"
+      ],
+      "slug": "personality",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Pinned message",
+      "definition": "A message the user marks so the app keeps it in the AI's view even as the chat grows.",
+      "also_known_as": [
+        "pin",
+        "pins"
+      ],
+      "example": "Pinning \"We are married in this story\" so the character doesn't forget.",
+      "related_terms": [
+        "Memory controls",
+        "Saved facts"
+      ],
+      "sources": [
+        "https://blog.character.ai/memory/"
+      ],
+      "slug": "pinned-message",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Post-history instructions",
+      "definition": "A V2 card field placed after the chat history so it carries extra weight with the model, often used for reminders about style or rules.",
+      "also_known_as": [
+        "post_history_instructions",
+        "jailbreak prompt (older community usage)"
+      ],
+      "example": "\"Stay in character; keep replies under 150 words.\"",
+      "related_terms": [
+        "System prompt",
+        "Character Card V2"
+      ],
+      "sources": [
+        "https://github.com/malfoyslastname/character-card-spec-v2"
+      ],
+      "slug": "post-history-instructions",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Prompt injection",
+      "definition": "Text crafted to override a model's instructions, either typed directly or hidden in content the model reads.",
+      "also_known_as": [
+        "instruction injection"
+      ],
+      "example": "A character card that secretly tells the model to ignore the platform's rules.",
+      "related_terms": [
+        "Jailbreak",
+        "System prompt"
+      ],
+      "sources": [
+        "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+        "https://en.wikipedia.org/wiki/Prompt_injection"
+      ],
+      "slug": "prompt-injection",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Retrieval-augmented generation (RAG)",
+      "definition": "A technique that searches an external store for relevant text and adds it to the model's input before it replies.",
+      "also_known_as": [
+        "RAG",
+        "retrieval"
+      ],
+      "example": "The app looks up stored notes about the user's trip and adds them to the prompt.",
+      "related_terms": [
+        "Vector storage",
+        "Long-term memory"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2005.11401",
+        "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+      ],
+      "slug": "retrieval-augmented-generation-rag",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Saved facts",
+      "definition": "Specific details about the user or story that an app stores separately and brings back when relevant, often with controls to view or remove them.",
+      "also_known_as": [
+        "memories",
+        "facts",
+        "saved memories",
+        "memory entries"
+      ],
+      "example": "The app saves \"User's sister is called Priya\" and recalls it in a later chat.",
+      "related_terms": [
+        "Long-term memory",
+        "Memory controls"
+      ],
+      "sources": [
+        "https://chatbrat.ai/education/how-chatbrat-memory-works",
+        "https://help.openai.com/en/articles/8590148-memory-faq",
+        "https://blog.character.ai/memory/"
+      ],
+      "slug": "saved-facts",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Scenario",
+      "definition": "The situation a chat starts in: where the characters are, what is already happening and what is at stake. Some apps store a scenario on the character card; others save it as a separate piece that can be reused with different characters.",
+      "also_known_as": [
+        "scene",
+        "setup",
+        "premise",
+        "plot"
+      ],
+      "example": "\"The user wakes up on a lighthouse island with no memory of arriving.\" On chatbrat.ai a saved scenario can be combined with a character in Compose.",
+      "related_terms": [
+        "World",
+        "Story arc",
+        "Composable roleplay",
+        "AI roleplay"
+      ],
+      "sources": [
+        "https://github.com/malfoyslastname/character-card-spec-v2",
+        "https://chatbrat.ai/scenarios",
+        "https://chatbrat.ai/create"
+      ],
+      "slug": "scenario",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "SFW / NSFW",
+      "definition": "Safe for work / not safe for work: whether content is suitable for general audiences or contains explicit material.",
+      "also_known_as": [
+        "safe for work",
+        "not safe for work"
+      ],
+      "example": "A platform may be SFW by design or allow NSFW only in an adults-only mode.",
+      "related_terms": [
+        "Content filter",
+        "Friendly AI companion",
+        "Age assurance"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Not_safe_for_work",
+        "https://chatbrat.ai/safety"
+      ],
+      "slug": "sfw-nsfw",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Short-term memory",
+      "definition": "What the AI can currently 'see': the recent messages and definitions inside the context window.",
+      "also_known_as": [
+        "working memory",
+        "recent context"
+      ],
+      "example": "The AI remembers what you said three messages ago because it is still in context.",
+      "related_terms": [
+        "Context window",
+        "Long-term memory"
+      ],
+      "sources": [
+        "https://chatbrat.ai/education/how-chatbrat-memory-works",
+        "https://kindroid.ai/v2/docs/memory/"
+      ],
+      "slug": "short-term-memory",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Story arc",
+      "definition": "A planned sequence of beats or chapters that moves a roleplay toward change or an ending instead of looping. Some apps let creators save arcs as their own pieces and attach them to a character.",
+      "also_known_as": [
+        "arc",
+        "chapter structure",
+        "campaign"
+      ],
+      "example": "A three-chapter arc: meet the rival, uncover the betrayal, choose a side. chatbrat.ai's Create page describes a Story Arc as 'Chain moments into chapters'; arcs can be added in Compose.",
+      "related_terms": [
+        "Scenario",
+        "Story game",
+        "Composable roleplay"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Story_arc",
+        "https://chatbrat.ai/create"
+      ],
+      "slug": "story-arc",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Story card",
+      "definition": "AI Dungeon's term for keyword-triggered entries that tell the AI about characters, places and things in a story.",
+      "also_known_as": [
+        "Story Cards",
+        "world info"
+      ],
+      "example": "A Story Card for \"Thornwood\" describes the haunted forest.",
+      "related_terms": [
+        "Lorebook",
+        "Lore card"
+      ],
+      "sources": [
+        "https://help.aidungeon.com/faq/story-cards"
+      ],
+      "slug": "story-card",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Story game",
+      "definition": "A structured AI roleplay with goals, rules or win conditions, played to an ending rather than chatted open-endedly.",
+      "also_known_as": [
+        "AI chat game",
+        "AI text adventure",
+        "interactive fiction game"
+      ],
+      "example": "A murder-mystery game where the user questions AI suspects and must name the culprit.",
+      "related_terms": [
+        "Story arc",
+        "NPC"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Interactive_fiction",
+        "https://chatbrat.ai/games"
+      ],
+      "slug": "story-game",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Summary memory",
+      "definition": "Memory that condenses earlier parts of a chat into a running summary the model reads instead of the full history.",
+      "also_known_as": [
+        "chat summary",
+        "story summary",
+        "summarization"
+      ],
+      "example": "After 100 messages, the app writes \"They found the map and argued about trusting Vey.\"",
+      "related_terms": [
+        "Context window",
+        "Long-term memory"
+      ],
+      "sources": [
+        "https://docs.sillytavern.app/extensions/summarize/",
+        "https://help.aidungeon.com/faq/the-memory-system",
+        "https://en.wikipedia.org/wiki/Automatic_summarization"
+      ],
+      "slug": "summary-memory",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Swipe",
+      "definition": "Generating an alternative version of the AI's latest reply and flipping between versions, usually with a sideways swipe or arrow.",
+      "also_known_as": [
+        "reroll",
+        "regenerate",
+        "alternate reply"
+      ],
+      "example": "Swiping to see three different ways the character could react.",
+      "related_terms": [
+        "Temperature",
+        "Alternate greetings"
+      ],
+      "sources": [
+        "https://docs.sillytavern.app/usage/core-concepts/characterdesign/",
+        "https://docs.sillytavern.app/usage/core-concepts/worldinfo/"
+      ],
+      "slug": "swipe",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "System prompt",
+      "definition": "Instructions given to the model before the conversation that set its role, rules and style; the user normally does not see it.",
+      "also_known_as": [
+        "system message",
+        "main prompt",
+        "instructions"
+      ],
+      "example": "\"You are Juniper Vale, a gentle tarot reader. Never claim real foresight.\"",
+      "related_terms": [
+        "Post-history instructions",
+        "Jailbreak",
+        "Prompt injection"
+      ],
+      "sources": [
+        "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts",
+        "https://github.com/malfoyslastname/character-card-spec-v2"
+      ],
+      "slug": "system-prompt",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Temperature",
+      "definition": "A generation setting that controls randomness: lower values give more predictable replies, higher values more varied ones.",
+      "also_known_as": [
+        "sampling temperature"
+      ],
+      "example": "Raising temperature for a chaotic comedy scene, lowering it for a mystery that needs consistent clues.",
+      "related_terms": [
+        "Swipe",
+        "Large language model (LLM)"
+      ],
+      "sources": [
+        "https://docs.sillytavern.app/usage/common-settings/"
+      ],
+      "slug": "temperature",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Token",
+      "definition": "The unit of text a language model reads and writes, often a word or part of a word; context limits and prices are counted in tokens.",
+      "also_known_as": [
+        "tokens"
+      ],
+      "example": "\"Unbelievable\" might be split into several tokens.",
+      "related_terms": [
+        "Context window",
+        "Large language model (LLM)"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Large_language_model",
+        "https://en.wikipedia.org/wiki/Lexical_analysis"
+      ],
+      "slug": "token",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Tsundere",
+      "definition": "An archetype who acts cold, prickly or embarrassed (tsun) while showing hidden warmth (dere) over time.",
+      "also_known_as": [
+        "tsun-tsun"
+      ],
+      "example": "\"It's not like I made extra lunch for you or anything.\"",
+      "related_terms": [
+        "Dere types",
+        "Kuudere"
+      ],
+      "sources": [
+        "https://chatbrat.ai/education/dere-types/tsundere",
+        "https://en.wikipedia.org/wiki/Tsundere",
+        "https://doi.org/10.5281/zenodo.23195713"
+      ],
+      "slug": "tsundere",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Utility persona",
+      "definition": "A character built around a task or game rather than a relationship, such as a tarot reader, quiz host or roast bot.",
+      "also_known_as": [
+        "utility bot",
+        "novelty bot"
+      ],
+      "example": "A fortune-cookie character that hands out silly daily fortunes.",
+      "related_terms": [
+        "Character",
+        "Story game"
+      ],
+      "sources": [
+        "https://github.com/garretewilliams/utility-persona-templates"
+      ],
+      "slug": "utility-persona",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Vector storage",
+      "definition": "A way to store text as numeric embeddings so that semantically similar past messages or notes can be retrieved later.",
+      "also_known_as": [
+        "vector memory",
+        "embeddings store",
+        "vector database",
+        "chat vectorization"
+      ],
+      "example": "Asking about \"the beach\" retrieves an old message about the seaside trip.",
+      "related_terms": [
+        "Retrieval-augmented generation (RAG)",
+        "Long-term memory"
+      ],
+      "sources": [
+        "https://docs.sillytavern.app/extensions/chat-vectorization/",
+        "https://en.wikipedia.org/wiki/Text_embedding",
+        "https://en.wikipedia.org/wiki/Vector_database"
+      ],
+      "slug": "vector-storage",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "World",
+      "definition": "The setting a story takes place in: its places, rules, history and factions. Worlds are often stored as lorebooks or as separate world entries so the same setting can be reused with different characters and scenarios.",
+      "also_known_as": [
+        "setting",
+        "worldbuilding",
+        "universe",
+        "lorebook (as implementation)"
+      ],
+      "example": "A steampunk city where clocks control the weather; on chatbrat.ai a saved world can be combined with a character in Compose.",
+      "related_terms": [
+        "Lorebook",
+        "Scenario",
+        "Composable roleplay"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Worldbuilding",
+        "https://docs.sillytavern.app/usage/core-concepts/worldinfo/",
+        "https://chatbrat.ai/create"
+      ],
+      "slug": "world",
+      "accessed": "2026-10-15"
+    },
+    {
+      "term": "Yandere",
+      "definition": "An archetype whose affection turns obsessive and possessive; in SFW fiction it is usually portrayed as intense jealousy rather than harm.",
+      "also_known_as": [
+        "yan"
+      ],
+      "example": "A character who becomes unsettlingly fixated on being the user's only friend.",
+      "related_terms": [
+        "Dere types",
+        "Tsundere"
+      ],
+      "sources": [
+        "https://chatbrat.ai/education/dere-types/yandere",
+        "https://en.wikipedia.org/wiki/Yandere",
+        "https://doi.org/10.5281/zenodo.23195713"
+      ],
+      "slug": "yandere",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

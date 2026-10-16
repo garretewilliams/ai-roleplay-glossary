@@ -1,0 +1,69 @@
+{
+  "title": "AI Roleplay & AI Companion Glossary",
+  "upload_type": "dataset",
+  "description": "<p>An open glossary of 62 AI roleplay and AI companion terms (character cards, greetings, lorebooks, scenarios, story arcs, memory types from context window to saved facts, RAG and long-term memory, character drift, swipes, temperature, system prompts, jailbreaks, SFW/NSFW, age assurance and dere archetypes). Each entry has an original definition, alternative names, an example, related terms and source URLs. Provided as CSV, JSON and schema.org DefinedTermSet JSON-LD.</p>",
+  "creators": [
+    {
+      "name": "Williams, Garret E.",
+      "affiliation": "chatbrat.ai",
+      "orcid": "0009-0008-9464-6561"
+    }
+  ],
+  "keywords": [
+    "AI roleplay",
+    "AI RP",
+    "AI companion",
+    "AI chatbot",
+    "AI character chat",
+    "glossary",
+    "character card",
+    "lorebook",
+    "long-term memory",
+    "context window",
+    "character drift",
+    "dere types",
+    "DefinedTermSet"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/garretewilliams/ai-roleplay-glossary",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://chatbrat.ai/glossary",
+      "relation": "isReferencedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://chatbrat.ai/ai-companion-vs-ai-roleplay",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://chatbrat.ai/education/how-chatbrat-memory-works",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://chatbrat.ai/education/dere-types",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23195713",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.5281/zenodo.23195702",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    }
+  ]
+}

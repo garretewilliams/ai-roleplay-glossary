@@ -1,0 +1,850 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "@id": "https://chatbrat.ai/glossary#termset",
+  "name": "AI Roleplay & AI Companion Glossary",
+  "description": "Plain-language definitions of AI roleplay, AI character chat and AI companion terms, from character cards and lorebooks to memory types and dere archetypes.",
+  "url": "https://chatbrat.ai/glossary",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Garret E. Williams",
+    "sameAs": [
+      "https://orcid.org/0009-0008-9464-6561",
+      "https://www.wikidata.org/wiki/Q141746451"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "chatbrat.ai",
+    "url": "https://chatbrat.ai",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q141746449"
+    ]
+  },
+  "dateModified": "2026-10-15",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#age-assurance",
+      "name": "Age assurance",
+      "termCode": "age-assurance",
+      "description": "Methods a platform uses to estimate or confirm a user's age, ranging from a self-declared birth date or confirmation button to ID or face-based checks by a third party.",
+      "alternateName": [
+        "age verification",
+        "age gate",
+        "age check"
+      ],
+      "url": "https://chatbrat.ai/glossary#age-assurance",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#ai-character-chat",
+      "name": "AI character chat",
+      "termCode": "ai-character-chat",
+      "description": "Chatting with a defined AI character (a name, personality and voice) rather than a neutral assistant; covers both companion and roleplay use.",
+      "alternateName": [
+        "character AI chat",
+        "talk to AI characters"
+      ],
+      "url": "https://chatbrat.ai/glossary#ai-character-chat",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#ai-chatbot",
+      "name": "AI chatbot",
+      "termCode": "ai-chatbot",
+      "description": "Software that holds a text or voice conversation using a language model; the broad category that includes assistants, companions and roleplay characters.",
+      "alternateName": [
+        "chatbot",
+        "conversational AI"
+      ],
+      "url": "https://chatbrat.ai/glossary#ai-chatbot",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#ai-companion",
+      "name": "AI companion",
+      "termCode": "ai-companion",
+      "description": "An AI character built for an ongoing, personal relationship with one user, usually with persistent memory of that user across sessions.",
+      "alternateName": [
+        "AI friend",
+        "companion app"
+      ],
+      "url": "https://chatbrat.ai/glossary#ai-companion",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#ai-roleplay",
+      "name": "AI roleplay",
+      "termCode": "ai-roleplay",
+      "description": "Collaborative fiction in which a user and an AI character play out a scene, with a setting, roles and something at stake.",
+      "alternateName": [
+        "AI RP",
+        "RP",
+        "AI role-play"
+      ],
+      "url": "https://chatbrat.ai/glossary#ai-roleplay",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#ai-rp",
+      "name": "AI RP",
+      "termCode": "ai-rp",
+      "description": "Short for AI roleplay; common in community forums and search queries.",
+      "alternateName": [
+        "AI roleplay",
+        "RP"
+      ],
+      "url": "https://chatbrat.ai/glossary#ai-rp",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#alternate-greetings",
+      "name": "Alternate greetings",
+      "termCode": "alternate-greetings",
+      "description": "Extra opening messages on a card; the user picks or swipes between them to start the chat differently.",
+      "alternateName": [
+        "alternate first messages"
+      ],
+      "url": "https://chatbrat.ai/glossary#alternate-greetings",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#author-s-note",
+      "name": "Author's note",
+      "termCode": "author-s-note",
+      "description": "A short instruction inserted near the end of the context to steer style or plot, usually hidden from the visible chat.",
+      "alternateName": [
+        "A/N"
+      ],
+      "url": "https://chatbrat.ai/glossary#author-s-note",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#character",
+      "name": "Character",
+      "termCode": "character",
+      "description": "The AI-played figure in a chat, defined by a name, description, personality, greeting and often example dialogue.",
+      "alternateName": [
+        "bot",
+        "AI character",
+        "char"
+      ],
+      "url": "https://chatbrat.ai/glossary#character",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#character-card",
+      "name": "Character card",
+      "termCode": "character-card",
+      "description": "A shareable file that packages a character's definition (description, personality, scenario, greeting, example dialogue and optional lorebook), often as JSON or embedded in a PNG.",
+      "alternateName": [
+        "character file",
+        "chara card",
+        "tavern card"
+      ],
+      "url": "https://chatbrat.ai/glossary#character-card",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#character-card-v2",
+      "name": "Character Card V2",
+      "termCode": "character-card-v2",
+      "description": "A community specification (spec value 'chara_card_v2') that extends the original card fields with creator notes, system prompt, post-history instructions, alternate greetings, an embedded character book and extensions.",
+      "alternateName": [
+        "chara_card_v2",
+        "V2 card"
+      ],
+      "url": "https://chatbrat.ai/glossary#character-card-v2",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#character-consistency",
+      "name": "Character consistency",
+      "termCode": "character-consistency",
+      "description": "How well an AI character keeps the same personality, voice and facts across a conversation and across sessions.",
+      "alternateName": [
+        "staying in character",
+        "persona consistency"
+      ],
+      "url": "https://chatbrat.ai/glossary#character-consistency",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#character-drift",
+      "name": "Character drift",
+      "termCode": "character-drift",
+      "description": "When an AI character gradually stops behaving like its definition over a long chat, changing voice, values or facts about itself.",
+      "alternateName": [
+        "personality drift",
+        "OOC drift",
+        "character bleed"
+      ],
+      "url": "https://chatbrat.ai/glossary#character-drift",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#companion-vs-chatbot-vs-roleplay",
+      "name": "Companion vs chatbot vs roleplay",
+      "termCode": "companion-vs-chatbot-vs-roleplay",
+      "description": "A three-way distinction: a chatbot answers, a companion relates to one user over time, and roleplay stages a fictional scene. Many products mix all three.",
+      "alternateName": [
+        "companion vs roleplay"
+      ],
+      "url": "https://chatbrat.ai/glossary#companion-vs-chatbot-vs-roleplay",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#composable-roleplay",
+      "name": "Composable roleplay",
+      "termCode": "composable-roleplay",
+      "description": "A way of building AI roleplay from reusable parts (a character, a scenario, a story arc, a world or lorebook) that can be mixed and matched, so one character can be placed in many different situations.",
+      "alternateName": [
+        "modular roleplay",
+        "mix-and-match roleplay"
+      ],
+      "url": "https://chatbrat.ai/glossary#composable-roleplay",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#compose-chatbrat-ai",
+      "name": "Compose (chatbrat.ai)",
+      "termCode": "compose-chatbrat-ai",
+      "description": "chatbrat.ai's feature for combining a character with scenarios, story arcs and worlds the user has already made; each combination starts a new chat.",
+      "alternateName": [
+        "Compose a Story"
+      ],
+      "url": "https://chatbrat.ai/glossary#compose-chatbrat-ai",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#content-filter",
+      "name": "Content filter",
+      "termCode": "content-filter",
+      "description": "Automated systems that detect and block or rewrite content against a platform's rules.",
+      "alternateName": [
+        "filter",
+        "safety filter",
+        "moderation"
+      ],
+      "url": "https://chatbrat.ai/glossary#content-filter",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#context-window",
+      "name": "Context window",
+      "termCode": "context-window",
+      "description": "The maximum amount of text (in tokens) a model can consider at once; anything outside it is not seen unless memory features bring it back.",
+      "alternateName": [
+        "context length",
+        "context size",
+        "short-term memory"
+      ],
+      "url": "https://chatbrat.ai/glossary#context-window",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#creator",
+      "name": "Creator",
+      "termCode": "creator",
+      "description": "A user who builds and publishes characters, scenarios or worlds for others to use.",
+      "alternateName": [
+        "bot creator",
+        "card author"
+      ],
+      "url": "https://chatbrat.ai/glossary#creator",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#dandere",
+      "name": "Dandere",
+      "termCode": "dandere",
+      "description": "An archetype who is shy and quiet with others and opens up once they feel safe.",
+      "alternateName": [
+        "shy type"
+      ],
+      "url": "https://chatbrat.ai/glossary#dandere",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#dere-types",
+      "name": "Dere types",
+      "termCode": "dere-types",
+      "description": "A Japanese-fandom family of character archetypes describing how affection is expressed, named with the suffix '-dere' (from deredere, 'lovey-dovey').",
+      "alternateName": [
+        "dere archetypes",
+        "-dere"
+      ],
+      "url": "https://chatbrat.ai/glossary#dere-types",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#deredere",
+      "name": "Deredere",
+      "termCode": "deredere",
+      "description": "An archetype who is openly cheerful, affectionate and energetic toward others.",
+      "alternateName": [
+        "genki (related)"
+      ],
+      "url": "https://chatbrat.ai/glossary#deredere",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#description",
+      "name": "Description",
+      "termCode": "description",
+      "description": "The main free-text field describing who the character is: background, appearance, role and situation.",
+      "alternateName": [
+        "character definition",
+        "char description"
+      ],
+      "url": "https://chatbrat.ai/glossary#description",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#example-dialogue",
+      "name": "Example dialogue",
+      "termCode": "example-dialogue",
+      "description": "Sample exchanges included in a character definition to show the model how the character talks.",
+      "alternateName": [
+        "example messages",
+        "mes_example",
+        "dialogue examples"
+      ],
+      "url": "https://chatbrat.ai/glossary#example-dialogue",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#friendly-ai-companion",
+      "name": "Friendly AI companion",
+      "termCode": "friendly-ai-companion",
+      "description": "An AI companion designed to be warm, upbeat and safe-for-work by default, with its personality and memory used for conversation and creative play rather than adult content.",
+      "alternateName": [
+        "SFW AI companion",
+        "wholesome AI companion"
+      ],
+      "url": "https://chatbrat.ai/glossary#friendly-ai-companion",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#greeting",
+      "name": "Greeting",
+      "termCode": "greeting",
+      "description": "The character's first message, which sets tone, situation and what the user can do next.",
+      "alternateName": [
+        "first message",
+        "first_mes",
+        "opening line"
+      ],
+      "url": "https://chatbrat.ai/glossary#greeting",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#group-chat",
+      "name": "Group chat",
+      "termCode": "group-chat",
+      "description": "A chat in which two or more AI characters take turns responding alongside the user.",
+      "alternateName": [
+        "multi-character chat",
+        "group roleplay"
+      ],
+      "url": "https://chatbrat.ai/glossary#group-chat",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#hallucination",
+      "name": "Hallucination",
+      "termCode": "hallucination",
+      "description": "When a model states something false or invented as if it were true; in roleplay this can show up as a character contradicting established facts.",
+      "alternateName": [
+        "confabulation",
+        "making things up"
+      ],
+      "url": "https://chatbrat.ai/glossary#hallucination",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#ic-in-character",
+      "name": "IC (in character)",
+      "termCode": "ic-in-character",
+      "description": "Speaking or acting as one's character inside the story, as opposed to out of character.",
+      "alternateName": [
+        "in character"
+      ],
+      "url": "https://chatbrat.ai/glossary#ic-in-character",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#jailbreak",
+      "name": "Jailbreak",
+      "termCode": "jailbreak",
+      "description": "An attempt to get a model or app to ignore its safety rules or instructions; character-chat front-ends also used \"jailbreak\" (UJB) as the name of a user instruction slot that the Character Card V2 post-history field replaces.",
+      "alternateName": [
+        "JB"
+      ],
+      "url": "https://chatbrat.ai/glossary#jailbreak",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#keyword-trigger",
+      "name": "Keyword trigger",
+      "termCode": "keyword-trigger",
+      "description": "The word or phrase that activates a lorebook entry when it appears in recent messages.",
+      "alternateName": [
+        "activation key",
+        "key",
+        "trigger word"
+      ],
+      "url": "https://chatbrat.ai/glossary#keyword-trigger",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#kuudere",
+      "name": "Kuudere",
+      "termCode": "kuudere",
+      "description": "An archetype who seems calm, cool and unemotional on the surface but shows care through actions.",
+      "alternateName": [
+        "kuu"
+      ],
+      "url": "https://chatbrat.ai/glossary#kuudere",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#large-language-model-llm",
+      "name": "Large language model (LLM)",
+      "termCode": "large-language-model-llm",
+      "description": "A neural network trained on large amounts of text to predict the next token, which powers most AI chatbots and characters.",
+      "alternateName": [
+        "LLM",
+        "language model",
+        "model"
+      ],
+      "url": "https://chatbrat.ai/glossary#large-language-model-llm",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#long-term-memory",
+      "name": "Long-term memory",
+      "termCode": "long-term-memory",
+      "description": "Any mechanism that lets an AI character recall information beyond the current context window, across a long chat or across separate chats.",
+      "alternateName": [
+        "persistent memory",
+        "cross-session memory"
+      ],
+      "url": "https://chatbrat.ai/glossary#long-term-memory",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#lore-card",
+      "name": "Lore card",
+      "termCode": "lore-card",
+      "description": "A single lorebook entry describing one thing (a place, item, faction or person), shown to the AI when its keywords come up.",
+      "alternateName": [
+        "lore entry",
+        "World Info entry",
+        "story card"
+      ],
+      "url": "https://chatbrat.ai/glossary#lore-card",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#lorebook",
+      "name": "Lorebook",
+      "termCode": "lorebook",
+      "description": "A set of entries (world facts, places, people) that are inserted into the AI's context when matching keywords appear in the chat.",
+      "alternateName": [
+        "World Info",
+        "lore card",
+        "character book",
+        "Sourcebook (zeta)",
+        "Story Cards (AI Dungeon)"
+      ],
+      "url": "https://chatbrat.ai/glossary#lorebook",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#memory-controls",
+      "name": "Memory controls",
+      "termCode": "memory-controls",
+      "description": "User-facing tools to see, add, edit, remove or turn off what an AI remembers.",
+      "alternateName": [
+        "memory settings",
+        "memory panel"
+      ],
+      "url": "https://chatbrat.ai/glossary#memory-controls",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#npc",
+      "name": "NPC",
+      "termCode": "npc",
+      "description": "A non-player character: a figure in a story controlled by the game or AI rather than by the user.",
+      "alternateName": [
+        "non-player character",
+        "side character"
+      ],
+      "url": "https://chatbrat.ai/glossary#npc",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#ooc-out-of-character",
+      "name": "OOC (out of character)",
+      "termCode": "ooc-out-of-character",
+      "description": "A message (often in brackets or parentheses) where the user or AI steps outside the story to talk about it directly.",
+      "alternateName": [
+        "out of character",
+        "(( ))"
+      ],
+      "url": "https://chatbrat.ai/glossary#ooc-out-of-character",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#persona",
+      "name": "Persona",
+      "termCode": "persona",
+      "description": "The identity the user plays in a chat (name, short description), which the AI uses to address and react to them.",
+      "alternateName": [
+        "user persona",
+        "player character",
+        "{{user}}"
+      ],
+      "url": "https://chatbrat.ai/glossary#persona",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#personality",
+      "name": "Personality",
+      "termCode": "personality",
+      "description": "A short field summarising the character's temperament and manner of speaking.",
+      "alternateName": [
+        "personality summary",
+        "traits"
+      ],
+      "url": "https://chatbrat.ai/glossary#personality",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#pinned-message",
+      "name": "Pinned message",
+      "termCode": "pinned-message",
+      "description": "A message the user marks so the app keeps it in the AI's view even as the chat grows.",
+      "alternateName": [
+        "pin",
+        "pins"
+      ],
+      "url": "https://chatbrat.ai/glossary#pinned-message",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#post-history-instructions",
+      "name": "Post-history instructions",
+      "termCode": "post-history-instructions",
+      "description": "A V2 card field placed after the chat history so it carries extra weight with the model, often used for reminders about style or rules.",
+      "alternateName": [
+        "post_history_instructions",
+        "jailbreak prompt (older community usage)"
+      ],
+      "url": "https://chatbrat.ai/glossary#post-history-instructions",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#prompt-injection",
+      "name": "Prompt injection",
+      "termCode": "prompt-injection",
+      "description": "Text crafted to override a model's instructions, either typed directly or hidden in content the model reads.",
+      "alternateName": [
+        "instruction injection"
+      ],
+      "url": "https://chatbrat.ai/glossary#prompt-injection",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#retrieval-augmented-generation-rag",
+      "name": "Retrieval-augmented generation (RAG)",
+      "termCode": "retrieval-augmented-generation-rag",
+      "description": "A technique that searches an external store for relevant text and adds it to the model's input before it replies.",
+      "alternateName": [
+        "RAG",
+        "retrieval"
+      ],
+      "url": "https://chatbrat.ai/glossary#retrieval-augmented-generation-rag",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#saved-facts",
+      "name": "Saved facts",
+      "termCode": "saved-facts",
+      "description": "Specific details about the user or story that an app stores separately and brings back when relevant, often with controls to view or remove them.",
+      "alternateName": [
+        "memories",
+        "facts",
+        "saved memories",
+        "memory entries"
+      ],
+      "url": "https://chatbrat.ai/glossary#saved-facts",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#scenario",
+      "name": "Scenario",
+      "termCode": "scenario",
+      "description": "The situation a chat starts in: where the characters are, what is already happening and what is at stake. Some apps store a scenario on the character card; others save it as a separate piece that can be reused with different characters.",
+      "alternateName": [
+        "scene",
+        "setup",
+        "premise",
+        "plot"
+      ],
+      "url": "https://chatbrat.ai/glossary#scenario",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#sfw-nsfw",
+      "name": "SFW / NSFW",
+      "termCode": "sfw-nsfw",
+      "description": "Safe for work / not safe for work: whether content is suitable for general audiences or contains explicit material.",
+      "alternateName": [
+        "safe for work",
+        "not safe for work"
+      ],
+      "url": "https://chatbrat.ai/glossary#sfw-nsfw",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#short-term-memory",
+      "name": "Short-term memory",
+      "termCode": "short-term-memory",
+      "description": "What the AI can currently 'see': the recent messages and definitions inside the context window.",
+      "alternateName": [
+        "working memory",
+        "recent context"
+      ],
+      "url": "https://chatbrat.ai/glossary#short-term-memory",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#story-arc",
+      "name": "Story arc",
+      "termCode": "story-arc",
+      "description": "A planned sequence of beats or chapters that moves a roleplay toward change or an ending instead of looping. Some apps let creators save arcs as their own pieces and attach them to a character.",
+      "alternateName": [
+        "arc",
+        "chapter structure",
+        "campaign"
+      ],
+      "url": "https://chatbrat.ai/glossary#story-arc",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#story-card",
+      "name": "Story card",
+      "termCode": "story-card",
+      "description": "AI Dungeon's term for keyword-triggered entries that tell the AI about characters, places and things in a story.",
+      "alternateName": [
+        "Story Cards",
+        "world info"
+      ],
+      "url": "https://chatbrat.ai/glossary#story-card",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#story-game",
+      "name": "Story game",
+      "termCode": "story-game",
+      "description": "A structured AI roleplay with goals, rules or win conditions, played to an ending rather than chatted open-endedly.",
+      "alternateName": [
+        "AI chat game",
+        "AI text adventure",
+        "interactive fiction game"
+      ],
+      "url": "https://chatbrat.ai/glossary#story-game",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#summary-memory",
+      "name": "Summary memory",
+      "termCode": "summary-memory",
+      "description": "Memory that condenses earlier parts of a chat into a running summary the model reads instead of the full history.",
+      "alternateName": [
+        "chat summary",
+        "story summary",
+        "summarization"
+      ],
+      "url": "https://chatbrat.ai/glossary#summary-memory",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#swipe",
+      "name": "Swipe",
+      "termCode": "swipe",
+      "description": "Generating an alternative version of the AI's latest reply and flipping between versions, usually with a sideways swipe or arrow.",
+      "alternateName": [
+        "reroll",
+        "regenerate",
+        "alternate reply"
+      ],
+      "url": "https://chatbrat.ai/glossary#swipe",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#system-prompt",
+      "name": "System prompt",
+      "termCode": "system-prompt",
+      "description": "Instructions given to the model before the conversation that set its role, rules and style; the user normally does not see it.",
+      "alternateName": [
+        "system message",
+        "main prompt",
+        "instructions"
+      ],
+      "url": "https://chatbrat.ai/glossary#system-prompt",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#temperature",
+      "name": "Temperature",
+      "termCode": "temperature",
+      "description": "A generation setting that controls randomness: lower values give more predictable replies, higher values more varied ones.",
+      "alternateName": [
+        "sampling temperature"
+      ],
+      "url": "https://chatbrat.ai/glossary#temperature",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#token",
+      "name": "Token",
+      "termCode": "token",
+      "description": "The unit of text a language model reads and writes, often a word or part of a word; context limits and prices are counted in tokens.",
+      "alternateName": [
+        "tokens"
+      ],
+      "url": "https://chatbrat.ai/glossary#token",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#tsundere",
+      "name": "Tsundere",
+      "termCode": "tsundere",
+      "description": "An archetype who acts cold, prickly or embarrassed (tsun) while showing hidden warmth (dere) over time.",
+      "alternateName": [
+        "tsun-tsun"
+      ],
+      "url": "https://chatbrat.ai/glossary#tsundere",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#utility-persona",
+      "name": "Utility persona",
+      "termCode": "utility-persona",
+      "description": "A character built around a task or game rather than a relationship, such as a tarot reader, quiz host or roast bot.",
+      "alternateName": [
+        "utility bot",
+        "novelty bot"
+      ],
+      "url": "https://chatbrat.ai/glossary#utility-persona",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#vector-storage",
+      "name": "Vector storage",
+      "termCode": "vector-storage",
+      "description": "A way to store text as numeric embeddings so that semantically similar past messages or notes can be retrieved later.",
+      "alternateName": [
+        "vector memory",
+        "embeddings store",
+        "vector database",
+        "chat vectorization"
+      ],
+      "url": "https://chatbrat.ai/glossary#vector-storage",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#world",
+      "name": "World",
+      "termCode": "world",
+      "description": "The setting a story takes place in: its places, rules, history and factions. Worlds are often stored as lorebooks or as separate world entries so the same setting can be reused with different characters and scenarios.",
+      "alternateName": [
+        "setting",
+        "worldbuilding",
+        "universe",
+        "lorebook (as implementation)"
+      ],
+      "url": "https://chatbrat.ai/glossary#world",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://chatbrat.ai/glossary#yandere",
+      "name": "Yandere",
+      "termCode": "yandere",
+      "description": "An archetype whose affection turns obsessive and possessive; in SFW fiction it is usually portrayed as intense jealousy rather than harm.",
+      "alternateName": [
+        "yan"
+      ],
+      "url": "https://chatbrat.ai/glossary#yandere",
+      "inDefinedTermSet": "https://chatbrat.ai/glossary#termset"
+    }
+  ]
+}
