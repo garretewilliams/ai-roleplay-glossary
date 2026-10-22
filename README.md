@@ -708,3 +708,7 @@ Garret E. Williams (2026). *AI Roleplay & AI Companion Glossary* (Version 1.0.0)
 Concept DOI (all versions, resolves to the latest): [10.5281/zenodo.23411518](https://doi.org/10.5281/zenodo.23411518) · v1.0.0 version DOI: [10.5281/zenodo.23411519](https://doi.org/10.5281/zenodo.23411519)
 
 Suggestions and corrections are welcome as GitHub issues.
+
+## Readable PDF and archived versions
+
+A [PDF companion](23411519-documentation.pdf) is available for the archived v1.0.0 documentation. See [archive and version notes](ZENODO.md) and the [published Zenodo version](https://zenodo.org/records/23555036). This documentation update adds no benchmark results or new software-release claim.
